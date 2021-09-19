@@ -1,0 +1,38 @@
+*{
+    padding: 0;/*altera globalmente todas as propriedades que vem por padrão do navegador*/
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #284d00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-texto{
+    margin-left: 10px;
+    color: white;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.menu li a:hover{
+    background-color: rgba(175, 50, 50, 0.5);
+    transition: 1.5s;
+}
